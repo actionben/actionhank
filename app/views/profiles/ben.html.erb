@@ -1,0 +1,26 @@
+<h2 class="pageHeading">Ben</h2>
+<div id="personProfilePage">
+ <div id="profile">
+	<%= render :partial => 'shared/photo', :locals => {:photo => @main_photo, :link_options => {:class => 'profilePhoto'}} %>
+	<p class="emailme"><a href="mailto:guitar@actionhank.co.uk">Email Ben</a></p>
+  <p>Hello! I'm Ben. I play the guitar in Action Hank.</p>
+  <p>I am <%= profile_link 'thom' %>&#39;s brother!</p>
+  <p>I like to do <a href="/atb/">mountainboarding</a>, and also <a href="/divisionx/">Parkour</a>, which you may know as Free Running.</p>
+  <h3>Fun Facts:</h3>
+  <ul>
+    <li>I have an irrational loathing for the actress <a href="http://www.imdb.com/name/nm0000541/">Bette Midler</a></li>
+    <li>I do not eat fruit</li>
+    <li>I love to read web comics! Some of my favourite ones are listed below.</li>
+  </ul>
+  <h3>Ben&#39;s favourite web comics</h3>
+  <p>Not all are suitable for younger readers, mind.</p>
+  <ul>
+    <li><a href="http://www.achewood.com/">Achewood</a></li>
+    <li><a href="http://www.wigu.com/">Wigu</a></li>
+    <li><a href="http://www.overcompensating.com/">Overcompensating</a></li>
+    <li><a href="http://www.dinosaurcomics.com/">Dinosaur Comics</a></li>
+    <li><a href="http://www.toothpastefordinner.com/">Toothpaste For Dinner</a></li>
+    <li><a href="http://www.scarygoround.com/">Scary-Go-Round</a></li>
+  </ul>
+ </div>
+</div>

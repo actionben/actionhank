@@ -1,0 +1,319 @@
+* {
+	font-family: verdana, sans-serif;
+	font-size: 100%;
+	color: white;
+}
+
+body {
+	margin: 0px;
+	background-color: rgb(66,108,9);
+	font-size: 0.8em;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+a img {
+	border-style: none;
+}
+
+div#siteHeader {
+	width: 100%;
+}
+
+a#homeLink,
+a#homeLink * {
+	border-style: none;
+	background-image: none;
+	background-color: transparent;
+}
+
+h1#siteTitle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 0.4em 0px 0px 0px;
+}
+
+div.main {
+	width: 780px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+
+div#masthead {
+	min-height: 5.4em;
+	background-color: rgb(45,62,19);
+	border-bottom: rgb(255,153,0) solid 6px;
+	padding: 0em;
+	margin-bottom: 14px;
+}
+
+ul#mainMenu {
+	position: relative;
+	float: left;
+	margin: 1.4em 0px 0px 0px;
+	padding: 0em 100px 0em 0em;
+}
+
+ul#mainMenu li {
+	float: left;
+	margin: 0em 1em 0em 0em;
+	padding: 0px;
+	list-style: none;
+}
+
+ul#mainMenu li a,
+ul#mainMenu li h2.pageTitle,
+.download a {
+	display: block;
+	margin: 0px;
+	background: transparent url(/images/main_menu_item_tl.png) no-repeat scroll top left;
+	padding: 0px;
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
+}
+
+.download a {
+	background-image: url(/images/body_button_tl.png);
+}
+
+ul#mainMenu li div{
+	background: transparent url(/images/main_menu_item_tr.png) no-repeat scroll right top;
+}
+
+.download div {
+	background: transparent url(/images/body_button_tr.png) no-repeat scroll right top;
+}
+
+ul#mainMenu li div div {
+	background: transparent url(/images/main_menu_item_bl.png) no-repeat scroll left bottom;
+}
+
+.download div div {
+	background: transparent url(/images/body_button_bl.png) no-repeat scroll left bottom;
+}
+
+ul#mainMenu li div div div,
+.download div div div {
+	background: transparent url(/images/main_menu_item_br.png) no-repeat scroll right bottom;
+	padding: 0.5em 1.4em 0.6em 1.4em;
+	color: white;
+}
+
+.download div div div {
+	background-image: url(/images/body_button_br.png);
+}
+
+ul#mainMenu li a:hover,
+ul#mainMenu li h2.pageTitle  {
+	background-image: url(/images/main_menu_item_over_tl.png);
+}
+
+.download a:hover  {
+	background-image: url(/images/body_button_over_tl.png);
+}
+
+ul#mainMenu li a:hover div,
+ul#mainMenu li h2.pageTitle div {
+	background-image: url(/images/main_menu_item_over_tr.png);
+}
+
+.download a:hover div {
+	background-image: url(/images/body_button_over_tr.png);
+}
+
+ul#mainMenu li a:hover div div,
+ul#mainMenu li h2.pageTitle div div {
+	background-image: url(/images/main_menu_item_over_bl.png);
+}
+
+.download a:hover div div {
+	background-image: url(/images/body_button_over_bl.png);
+}
+
+ul#mainMenu li a:hover div div div,
+ul#mainMenu li h2.pageTitle div div div {
+	background-image: url(/images/main_menu_item_over_br.png);
+}
+
+.download a:hover div div div {
+	background-image: url(/images/body_button_over_br.png);
+}
+
+div.first {
+	float: left;
+  width: 370px;
+}
+
+div.second {
+	float: right;
+}
+
+div.mainPhoto {
+	position: relative;
+	width: 375px;
+	height: 500px;
+}
+
+div.mainPhoto div.blurb {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 185px;
+	height: 500px;
+	padding: 0px 20px 0px 170px;
+	background: transparent url(/images/main_photo_overlay.png) repeat-x scroll top left;
+	text-align: right;
+	font-size: 0.85em;
+}
+
+div.mainPhoto div.blurb a:link {
+	color: rgb(255,153,0);
+}
+
+div.mainPhoto div.blurb a:visited {
+	color: white;
+}
+
+div.main table {
+	border-collapse: collapse;
+}
+
+div.main table tr th,
+div.main table tr td {
+	margin: 0px 0px 0px 0px;
+	border: rgb(138,184,69) solid 1px;
+	padding: 0px 0px 0px 0px;
+}
+
+div.main table tbody th {
+	text-align: right;
+	padding-right: 1em;
+}
+
+div.main table thead th {
+	border-top-style: none;
+}
+
+div.main table tbody th {
+	border-left-style: none;
+}
+
+div.main table#readyReckoner {
+	margin-right: 1em;
+}
+
+div.main table#readyReckoner tbody tr td p {
+	display: block;
+	height: 3em;
+	margin: 0px 0px 0px 0px;
+	background-color: rgb(138,184,69);
+	color: rgb(138,184,69);
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+div.main table#readyReckoner col.heads {
+	width: 30%;
+}
+
+div.main table#readyReckoner col.person {
+	width: 10%;
+}
+
+div#footer {
+	text-align: right;
+}
+
+div#footer * {
+	font-size: 0.7em;
+	background-image: none;
+}
+
+input,
+select,
+option,
+textarea {
+	color: black;
+}
+
+div#history {
+	column-count: 3;
+	column-width: 235px;
+	column-gap: 20px;
+}
+
+div#songs {
+	column-count: 2;
+	column-width: 375px;
+	column-gap: 30px;
+}
+
+.download {
+	width: 12em;
+	float: left;
+	margin: 0px 1em 0px 0px;
+	font-size: 0.9em;
+}
+
+#profile .profilePhoto {
+	float: left;
+	margin: 0px 1em 1em 0px;
+}
+
+.main .latestnews,
+.main .closestshow,
+.main .otherplaces {
+	text-align: justify;
+}
+
+.main .latestnews {
+	float: right;
+	width: 198px;
+}
+
+.main .latestnews h2 {
+	margin: 0 0 0.4em 0;
+	font-size: 2.6em;
+	font-family: Times;
+	font-weight: normal;
+	line-height: 0.9em;
+}
+
+.main .closestshow {
+	float: left;
+	width: 149px;
+}
+
+.main .otherplaces {
+	width: 375px;
+  clear: both;
+}
+
+.main .otherplaces a {
+	display: block;
+  margin-top: 20px;
+	background: rgb(56,92,7) no-repeat 60% 60%;
+	padding: 6% 200px 17% 6%;
+  text-decoration: none;
+}
+
+.main .otherplaces a.myspace {
+	background-image: url(/images/myspace_bg.png);
+}
+
+.main .otherplaces a.cafepress {
+	background-image: url(/images/cafepress_bg.png);
+}
+
+.main .otherplaces a.punknews {
+	background-image: url(/images/punknews_bg.png);
+}
+
+.arrow.down {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,2 @@
+class MerchController < ApplicationController
+end
