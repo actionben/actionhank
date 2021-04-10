@@ -1,4 +1,0 @@
-div.mainPhoto div.blurb {
-	background-image:none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/main_photo_overlay.png',sizingMethod='scale');
-}
